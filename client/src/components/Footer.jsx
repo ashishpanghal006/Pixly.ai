@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
         </div>
         <p className="pt-4 text-center text-xs md:text-sm pb-5">
-            Copyright 2025 © PixlyAI. All Right Reserved.
+            Copyright 2025 © PixlyAi. All Right Reserved.
         </p>
     </footer>
   )
