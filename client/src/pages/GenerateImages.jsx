@@ -5,13 +5,13 @@ const GenerateImages = () => {
 
   const imageStyle = ['Realistic', 'Ghibli style', 'Anime style', 'Cartoon style', 'Fantasy style', 'Realistic style', '3D style', 'Portrait style']
     
-    const [selectedStyle, setSelectedStyle] = useState('Realistic')
-    const [input, setInput] = useState('')
-    const [publish, setPublish] = useState(false)
-  
-    const onSubmitHandler = async (e) => {
-      e.preventDefault();
-    }
+  const [selectedStyle, setSelectedStyle] = useState('Realistic')
+  const [input, setInput] = useState('')
+  const [publish, setPublish] = useState(false)
+
+  const onSubmitHandler = async (e) => {
+    e.preventDefault();
+  }
 
 
   return (
